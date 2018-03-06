@@ -5,7 +5,7 @@ body{
     background-color: #f4f4f4;
 }
 
-/* Global */
+/* Global - Index, About, Services*/
 .container{
     width: 80%;
     margin: auto;
@@ -26,7 +26,7 @@ ul{
     /* margin: 20px; */
 }
 
-/* Header */
+/* Header - Index, About*/
 header{
     background-color: #35424a;
     color: #ffffff;
@@ -43,7 +43,6 @@ header a{
 }
 
 header li{
-    /* float: left; */
     display: inline;
     padding: 0 20px;
 }
@@ -81,7 +80,7 @@ header a:hover{
 }
 
 
-/* Showcase */
+/* Showcase - Index.html*/
 #showcase{
     min-height: 400px;
     background: url("../img/showcase.jpg") no-repeat 0-400px;
@@ -99,8 +98,10 @@ header a:hover{
     font-size: 20px;
 }
 
+
+/* Newsletter - Index, About*/
 #newsletter{
-    padding: 50px;
+    padding: 30px;
     color: #ffffff;
     background: #35424a;
 }
@@ -120,10 +121,29 @@ header a:hover{
     width: 250px;
 }
 
+
+/* Sidebar - About.html */
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Main column - About.html */
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+
 /* Product Category */
 #product-categories{
     margin-top: 30px;
-    /* padding: 20px;  */
 }
 
 #product-categories .product-category{
