@@ -56,12 +56,21 @@ header #brand-logo h1{
     margin: 0
 }
 
+header #brand-name{
+    display: inline;
+}
+
 header nav{
     float: right;
     padding-top: 10px;
 }
 
-header .highlight, header .current a{
+header .highlight{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header .highlight-1, header .current a{
     color: #e8491d;
     font-weight: bold;
 }
@@ -109,4 +118,31 @@ header a:hover{
     padding: 4px;
     height: 25px;
     width: 250px;
+}
+
+/* Product Category */
+#product-categories{
+    margin-top: 30px;
+    /* padding: 20px;  */
+}
+
+#product-categories .product-category{
+    float: left;
+    text-align: center;
+    padding: 0px;
+    width: 33.3%;
+}
+
+#product-categories .product-category img{
+    width: 90px;
+}
+
+
+/* Footer */
+footer{
+    background-color: #e8491d;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    color: #ffffff;
 }
