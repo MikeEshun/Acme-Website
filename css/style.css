@@ -31,6 +31,17 @@ aside{
     /* margin: 20px; */
 }
 
+.btn-submit-1{
+    height: 38px;
+    background-color: #e8491d; 
+    border: none;
+    color: #ffffff;
+    padding: 0 20px;
+    width: 94%;
+    /* margin: 20px; */
+}
+
+
 /* Header - Index, About*/
 header{
     background-color: #35424a;
